@@ -4,7 +4,8 @@
   "description": "A `The Odin Project` project that enhances the command on using webpack to develop web applications.",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
+    "start": "webpack --mode development",
+    "build": "webpack --mode production",
     "watch": "webpack --watch"
   },
   "keywords": [],
