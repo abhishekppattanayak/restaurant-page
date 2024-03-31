@@ -1,3 +1,6 @@
+import '../assets/styles.css';
+
+
 const Menu = (()=>{
     const name = 'Menu';
     const item = (name, icon, price)=>{
