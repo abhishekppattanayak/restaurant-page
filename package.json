@@ -1,0 +1,18 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "A `The Odin Project` project that enhances the command on using webpack to develop web applications.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
