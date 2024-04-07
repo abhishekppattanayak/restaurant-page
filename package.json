@@ -6,6 +6,7 @@
   "scripts": {
     "css": "npx tailwindcss -i ./src/assets/input.css -o ./src/assets/styles.css",
     "start": "webpack --mode development",
+    "test": "echo no_test_defined",
     "build": "webpack --mode production",
     "watch": "webpack --watch"
   },
