@@ -7,7 +7,6 @@ pipeline {
         stage('Build') {
             steps {
                 // Install dependencies
-                sh 'cd ./restaurant-page/'
                 sh 'npm install'
             }
         }
