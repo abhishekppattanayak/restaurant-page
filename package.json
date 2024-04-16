@@ -8,7 +8,8 @@
     "start": "webpack --mode development",
     "test": "echo no_test_defined",
     "build": "webpack --mode production",
-    "watch": "webpack --watch"
+    "watch": "webpack --watch",
+    "deploy": "git subtree push --prefix dist origin gh-pages"
   },
   "keywords": [],
   "author": "",

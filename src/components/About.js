@@ -13,7 +13,7 @@ const About = (()=>{
         
         let p = document.createElement('p')
         p.innerText = "Hello👋, there! This website was made as a learning step for web development. I'm grateful to The Odin Project community for providing such an excellent path to learn."
-        p.classList.add('my-4', 'font-lg', 'lg:mx-64', 'md:mx-24', 'mx-12')
+        p.classList.add('my-4', 'font-lg', 'lg:mx-64', 'md:mx-24', 'mx-12', 'text-center')
         
         let dis = document.createElement('p')
         dis.innerText = "This website is made for educational purposes only."
