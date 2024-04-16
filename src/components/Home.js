@@ -1,15 +1,17 @@
 import '../assets/styles.css';
+const __content = document.querySelector('#content')
 
 const Home = (()=>{
-    const name = 'Home';
 
     const render = ()=>{
-        let div = document.createElement('div');
-        div.classList.add('page');
-
-        return div;
+        __content.innerHTML = "";
+        let div = document.createElement('div')
+        div.innerText = "this is home"
+        __content.append(div)
     };
-    return { name, render };
+
+    return { render }
+    
 })();
 
 export default Home;

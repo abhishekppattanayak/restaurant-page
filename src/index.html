@@ -3,13 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/assets/styles.css">
     <title>Restaurant Page</title>
 </head>
-<body>
+<body class="font-mono text-3xl bg-white">
     <header>
-        <nav></nav>
+        <nav>
+            <ul class="flex gap-2 justify-evenly py-8 font-bold outline outline-1">
+                <li><button class="px-6 py-4  focus:rounded-full focus:bg-slate-400" id="home">🏠 Home</button></li>
+                <li><button class="px-6 py-4  focus:rounded-full focus:bg-slate-400" id="menu">🎴 Menu</button></li>
+                <li><button class="px-6 py-4  focus:rounded-full focus:bg-slate-400" id="about">ℹ️ About</button></li>
+            </ul>
+        </nav>
     </header>
     <div id="content"></div>
-    <footer>Copyright &copy; 2024 <a href="https://github.com/abhishekppattanayak">abhishekppattanayak</a></footer>
 </body>
 </html>

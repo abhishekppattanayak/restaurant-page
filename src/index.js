@@ -1,27 +1,13 @@
-import Home from "./components/Home";
-import Menu  from "./components/Menu";
-import About  from "./components/About";
-import './assets/styles.css';
+import Home from "./components/Home"
+import About from "./components/About"
+import Menu from "./components/Menu"
 
-// document.querySelector('body').classList.add('bg-black');
+const __home = document.querySelector('#home')
+const __menu = document.querySelector('#menu')
+const __about = document.querySelector('#about')
 
-(()=>{
-    const arr = [Home, Menu, About];
-    let nav = document.querySelector('nav');
-    let content = document.querySelector('#content');
-    content.classList.add('flex ')
-    arr.forEach(page => {
-        let p = document.createElement('div');
-        p.textContent = page.name;
-        p.addEventListener('click', ()=>{
-            content.innerHTML = "";
-            content.innerHTML = page.name;
-        })
-        nav.appendChild(p);
-    })
-    content.innerHTML = Home.name;
-})();
+__home.addEventListener('click', Home.render)
+__about.addEventListener('click', About.render)
+__menu.addEventListener('click', Menu.render)
 
-
-
-
+Home.render()
